@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assign.css">
+    <script>
+$(function() {
+ $("#btn1").on('click', function() {
+    $('#pic2').attr("src","pic_bulbon.gif");
+
+            })
+$("#btn2").on('click', function() {
+    $('#pic2').attr("src","pic_bulboff.gif");
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div>Mahesh Waran</div>
+      </div>
+      <div class="container1">
+        <div>Welcome to my first web page</div>
+      </div>
+      <div class="user-panel">THE BAND</div>
+      <div class="user-panel2">WeLoveMusic</div>
+      <div class="user-panel3">A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ...<br> Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.</div>
+      <img id="pic1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOC-dCL_TVyjLz4DXj2YWbgIh2St5LQj9aig&usqp=CAU">
+      <div class="text">“Race cars are neither beautiful nor ugly. They become beautiful when they win.”</div>
+<br>
+<img id="pic2"src="pic_bulboff.gif"alt="">
+<br>
+<div class="container2">
+<button id="btn1">Turn on the light</button>
+<button id="btn2">Turn of the light</button>
+</div>
+<br>
+<form id="form" style="background-color: rgba(0, 0, 0, 0.212); color: white;height: 35vh;">
+<div>
+    <label for="email">E-mail Address</label>
+    <br><input type="email" id="email"name="E-mailaddress" placeholder="mahesh99war@gmail.com">
+</div>
+<div>
+    <br><label for="password">Password</label>
+    <br><input type="password" id="password">
+</div>
+    <div>
+        <br><input type="checkbox" id="check" name="check">
+    <label for="check">I'm not Robot</label>
+</div>
+<br>
+<div>
+    <button type="button" style="width: 50%; background-color: black;color: white;border-color: red;"onclick="myFunction()"value="Submit form">submit</button>
+</div>
+</form>
+<h1>ThankYou</h1>
+<script src="assign.js"></script>
+</body>
+</html>

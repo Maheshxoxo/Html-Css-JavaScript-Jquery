@@ -1,0 +1,144 @@
+body {
+    
+    background-image: url(https://i.pinimg.com/originals/97/c4/15/97c4156ef783b84e7b1aa1e354c423d6.jpg);
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-size: 1400px 700px , cover;
+    
+    
+}
+.container {
+    text-align: center;
+    color: white;
+    font-size: 98px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.container1  {
+    text-align: center;    
+    color: white;
+    font-size: 34px;
+    height: 120%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+.user-panel {
+    text-align: center;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 15px;
+    height: 5px;
+    width: 1324px;
+    padding: 15px;
+    background: white;
+    color: black;
+    position: absolute;
+    left:50%;
+    top:115%;
+    transform: translate(-50%,-50%);
+    background-attachment: fixed;
+  }
+.user-panel2 {
+    font-size: medium;  
+    text-align: center;
+    border-left: 4px solid blueviolet;
+    border-bottom: 4px solid blueviolet;
+    border-right: 4px solid blueviolet;
+    padding: 50px;
+    margin: 15px;
+    height: 5px;
+    width: 1324px;
+    padding: 15px;
+    background: white;
+    color: black;
+    position: absolute;
+    left:50%;
+    top:125%;
+    transform: translate(-50%,-50%);
+    background-attachment: fixed;
+  }
+.user-panel3 {
+    font-size: medium;  
+    text-align: center;
+    border-left: 4px solid red;
+    border-top: 4px solid red;
+    border-right: 4px solid red;
+    padding: 50px;
+    margin: 15px;
+    height: 5px;
+    width: 1324px;
+    padding: 15px;
+    background: white;
+    color: black;
+    position: absolute;
+    left:50%;
+    top:135%;
+    transform: translate(-50%,-50%);
+    background-attachment: fixed;
+ }
+#pic1 {
+    border-radius: 20px;
+    position: absolute;
+    left:50%;
+    top:160%;
+    transform: translate(-50%,-50%);
+    background-attachment: fixed;
+
+ }
+.text{
+    position: absolute;
+    left:50%;
+    top:180%;
+    transform: translate(-50%,-50%);
+    background-attachment: fixed;
+ } 
+#pic2 {
+    
+    position: absolute;
+    left:50%;
+    top:195%;
+    transform: translate(-50%,-50%);
+}
+.container2 {
+    position: absolute;
+    left:50%;
+    top:215%;
+    transform: translate(-50%,-50%);
+}
+#form {
+    text-align: center;
+    width: 110%;
+    position: absolute;
+    left:50%;
+    top:240%;
+    transform: translate(-50%,-50%);
+}
+h1 {
+    font-size: medium;  
+    text-align: center;
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: 50px;
+    margin: 15px;
+    height: 84px;
+    width: 102%;
+    padding: auto;
+    background:black;
+    color: white;
+    position: absolute;
+    left:50%;
+    top:270%;
+    transform: translate(-50%,-50%);
+    background-attachment: fixed;
+ }
